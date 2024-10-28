@@ -1,0 +1,59 @@
+{
+    "productos": [
+      {
+        "nombre": "Americano",
+        "descripcion": "3 shots de cafe typica en agua caliente.",
+        "precio": "7",
+        "imagen": "./img/americano.jpeg"
+      },
+      {
+        "nombre": "Submarino",
+        "descripcion": "Leche entera caliente con oleas de chocolate.",
+        "precio": "12",
+        "imagen": "./img/submarino.jpeg"
+      },
+      {
+        "nombre": "Cappuccino",
+        "descripcion": "3 shots de espresso de cafe typica con leche espumada",
+        "precio": "15",
+        "imagen": "./img/cappuccino.jpeg"
+      },
+      {
+        "nombre": "Infusion de Manzanilla",
+        "descripcion": "Agua caliente con sobre de manzanilla",
+        "precio": "7",
+        "imagen": "./img/manzanilla.jpeg"
+      },
+      {
+        "nombre": "Latte Cocoa",
+        "descripcion": "2 shots de café typica con 1 cuchara de cocoa sin endulzar con leche espumada.",
+        "precio": "18",
+        "imagen": "./img/cocoalat.jpeg"
+      },
+      {
+        "nombre": "Latte Matcha",
+        "descripcion": "1 cucharilla de match en polvo con leche entera y leche texturizada.",
+        "precio": "18",
+        "imagen": "./img/matchlat.jpeg"
+      },
+      {
+        "nombre": "Latte Frio",
+        "descripcion": "Compuesto por 3 shots de café typica con cubos de hielo y almibar.",
+        "precio": "18",
+        "imagen": "./img/latfrio.jpeg"
+      },
+      {
+        "nombre": "Helado de Chocolate",
+        "descripcion": "Compuesta con crema de leche, oleas de chocolate, cocoa y sirope de chocolate frappeado.",
+        "precio": "21",
+        "imagen": "./img/heladochoc.jpeg"
+      },
+      {
+        "nombre": "Helado de Caramelo",
+        "descripcion": "Crema de leche sirope de caramelo frappeado.",
+        "precio": "21",
+        "imagen": "./img/heladocara.jpeg"
+      }
+    ]
+  }
+  

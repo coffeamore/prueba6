@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+  <div class="header">
+    <a href="index.html" class="logo">
+      <img src="./ico/logosinfondo.png" alt="Cafetería">
+    </a>
+    <div class="header-right">
+      <a href="#">Inicio</a>
+      <a class="active" href="index.html">Nuestros Productos</a>
+      <a href="#">Contáctanos</a>
+      <!-- Ícono del carrito -->
+      <a href="#" id="cart-icon">
+        <span class="iconify" data-icon="mdi:cart-outline" style="font-size: 36px;"></span>
+        <span id="cart-count">0</span>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Contenedor del Carrito -->
+  <!-- HTML -->
+  <div id="cart-container" class="cart-hidden">
+    <button id="cart-close-btn" class="cart-close-btn">×</button>
+    <h2>Carrito de Compras</h2>
+    <ul id="cart-items"></ul>
+    <div class="cart-footer">
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="checkout-btn">Finalizar Compra</button>
+    </div>
+  </div>
+  
+  
+    <!-- Main Content -->
+    <main>
+      <div class="content-two" id="aboutme">
+        <h1 class="title-one">Nuestros <span>Productos</span></h1>
+        <p>Cafeteria de especialidad, inspirada en los placeres del tomar un café y saborearlo con distintos sabores  y aromas. </p>
+        <br>
+      </div>
+      <h2 class="cata">Disfruta del Catalogo de Bebidas</h2>
+      <div class="content-three" id="products-container">
+        
+      </div>
+      <!-- Modal de Formulario -->
+      <div class="modal" id="modal-formulario" style="display: none;">
+        <div class="modal-contenido">
+          <span class="cerrar" id="cerrar-modal">&times;</span>
+          <form id="form-envio">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+      
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+      
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+      
+            <button type="submit">Finalizar Compra</button>
+          </form>
+        </div>
+      </div>    
+  
+  
+      <div class="content-five">
+        <h1 class="titulocontacto">Contáctanos</h1>
+        <div class="items-all">
+          <div class="contacto">
+            <div class="contact-detaill">
+              <h3>Teléfonos</h3>
+              <p>+591 74158437 - 52 83061</p>
+            </div>
+            <div class="contact-detaill">
+              <h3>Dirección</h3>
+              <p>Soria Galvarro entre Junin y Adolfo Mier</p>
+              <p>Frente al Colegio Maria Quiroz</p>
+              <p>Oruro Cercado - Bolivia</p>
+            </div>
+            <div class="contact-detaill">
+              <h3>Correo Electrónico</h3>
+              <a href="adanrodriflors123@gmail.com"><p>adanrodriflors123@gmail.com</p></a>
+            </div>
+          </div>
+          <div class="ubication">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d504.4708673544573!2d-67.1132053201066!3d-17.96928714678539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1729093843162!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+  
+      <div class="redsocial">
+        <h1>Síguenos en Nuestras Redes Sociales</h1>
+        <a href="#"><span></span></a>
+        <a href=""><span></span></a>
+      </div>
+    </main>
+  
+    <!-- Footer -->
+    <footer>
+      <div class="f-detalles">
+        <p>Coffe Amore | CAFETERÍA</p>
+        <p>© CoffeAmore S.R.L. | Todos los derechos reservados.</p>
+      </div>
+      <div class="dydfjhs">
+        <p>Diseñada y desarrollada por: Adan</p>
+      </div>
+    </footer>
+  
+    <script src="./js.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>
